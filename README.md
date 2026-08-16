@@ -28,8 +28,6 @@ Brand_Analysis_Dashboard/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-└── assets/
-    └── screenshots/
 ```
 
 > **Note:** The `venv/` folder is used only for the local Python environment and is not uploaded to GitHub.
