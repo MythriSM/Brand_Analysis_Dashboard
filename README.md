@@ -18,9 +18,8 @@ An interactive data analysis and visualization dashboard developed using Python,
 - Dash
 - Excel
 
-## 📂 Project Structure
+📂 Project Structure
 
-```text
 Brand_Analysis_Dashboard/
 │
 ├── app.py
@@ -29,8 +28,7 @@ Brand_Analysis_Dashboard/
 ├── README.md
 ├── .gitignore
 └── assets/
-    └── screenshots
-```text
+    └── screenshots/
 
 «Note: The "venv/" folder is used only for the local Python environment and is not uploaded to GitHub.»
 
@@ -42,8 +40,7 @@ The project uses the "brand_analysis_dirty.xlsx" dataset for data analysis and v
 
 1. Clone the Repository
 
-git clone https://github.com/MythriSM/Brand_Analysis_Dashboard.git 
-
+git clone https://github.com/MythriSM/Brand_Analysis_Dashboard.git
 cd Brand_Analysis_Dashboard
 
 2. Install Required Libraries
