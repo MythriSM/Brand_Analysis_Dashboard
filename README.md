@@ -1,14 +1,14 @@
 📊 Brand Analysis Dashboard
 
-A data analysis and visualization project developed using Python and Dash to analyze brand-related data through an interactive dashboard.
+An interactive data analysis and visualization dashboard developed using Python, Pandas, Plotly, and Dash to analyze brand-related data and present meaningful insights through interactive visualizations.
 
 🚀 Features
 
 - 📊 Interactive data visualizations
-- 📈 Brand performance analysis
-- 🔍 Easy-to-understand charts and insights
-- 🎛️ Interactive dashboard components
-- 📋 Data-driven analysis using Python
+- 📈 Brand data analysis
+- 🔍 Explore patterns and trends in the dataset
+- 📋 Data processing and analysis using Pandas
+- 🎛️ Interactive dashboard using Dash and Plotly
 
 🛠️ Technologies Used
 
@@ -16,40 +16,47 @@ A data analysis and visualization project developed using Python and Dash to ana
 - Pandas
 - Plotly
 - Dash
+- Excel
 
 📂 Project Structure
 
-Brand-Analysis-Dashboard/
+Brand_Analysis_Dashboard/
 │
 ├── app.py
 ├── brand_analysis_dirty.xlsx
 ├── requirements.txt
 ├── README.md
-└── assets/
-    └── screenshots/
+└── .gitignore
+
+«Note: The "venv/" folder is used only for the local Python environment and is not uploaded to GitHub.»
+
+📊 Dataset
+
+The project uses the "brand_analysis_dirty.xlsx" dataset for data analysis and visualization.
 
 ⚙️ Installation
 
-Clone the repository:
+1. Clone the Repository
 
-git clone https://github.com/MythriSM/Brand_Analysis_Dashboard.git
-cd Brand-Analysis-Dashboard
+git clone https://github.com/MythriSM/Brand_Analysis_Dashboard.git 
 
-Install the required libraries:
+cd Brand_Analysis_Dashboard
+
+2. Install Required Libraries
 
 pip install -r requirements.txt
 
-▶️ How to Run
+▶️ Run the Dashboard
 
 Run the following command:
 
 python app.py
 
-Then open the local URL shown in the terminal in your browser.
+After running the application, open the local URL displayed in the terminal in your web browser.
 
-📌 Project Purpose
+🎯 Project Objective
 
-The main purpose of this project is to analyze brand-related data and present meaningful insights using interactive data visualizations.
+The objective of this project is to analyze brand-related data and present useful insights through an interactive and easy-to-understand dashboard.
 
 👩‍💻 Author
 
@@ -57,3 +64,7 @@ Mythri SM
 
 Computer Science Student
 Sapthagiri NPS University
+
+🔗 GitHub Repository
+
+https://github.com/MythriSM/Brand_Analysis_Dashboard
