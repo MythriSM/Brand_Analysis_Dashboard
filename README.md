@@ -45,6 +45,7 @@ The project uses the "brand_analysis_dirty.xlsx" dataset for data analysis and v
 1. Clone the Repository
 
 git clone https://github.com/MythriSM/Brand_Analysis_Dashboard.git
+
 cd Brand_Analysis_Dashboard
 
 2. Install Required Libraries
