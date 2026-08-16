@@ -18,8 +18,9 @@ An interactive data analysis and visualization dashboard developed using Python,
 - Dash
 - Excel
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 Brand_Analysis_Dashboard/
 │
 ├── app.py
@@ -29,6 +30,9 @@ Brand_Analysis_Dashboard/
 ├── .gitignore
 └── assets/
     └── screenshots/
+```
+
+> **Note:** The `venv/` folder is used only for the local Python environment and is not uploaded to GitHub.
 
 «Note: The "venv/" folder is used only for the local Python environment and is not uploaded to GitHub.»
 
