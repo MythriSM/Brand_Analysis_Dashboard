@@ -74,3 +74,6 @@ Sapthagiri NPS University
 🔗 GitHub Repository
 
 https://github.com/MythriSM/Brand_Analysis_Dashboard
+
+📄 License
+This project is intended for educational and portfolio purposes.
