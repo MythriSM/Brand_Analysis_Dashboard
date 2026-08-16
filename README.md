@@ -1,8 +1,8 @@
-📊 Brand Analysis Dashboard
+# 📊 Brand Analysis Dashboard
 
-An interactive brand data analytics dashboard built with Python, Pandas, Plotly, and Dash to explore brand-related data, analyze trends, and present meaningful insights through interactive visualizations.
+An interactive brand data analytics dashboard built with **Python, Pandas, Plotly, and Dash** to explore brand-related data, analyze trends, and present meaningful insights through interactive visualizations.
 
-Project Overview
+## Project Overview
 
 The Brand Analysis Dashboard transforms brand-related data into an interactive analytics experience.
 
@@ -10,9 +10,9 @@ The application loads brand data from an Excel dataset, performs data processing
 
 The dashboard allows users to explore brand data and identify patterns, trends, and insights through an easy-to-use interactive interface.
 
-✨ Features
+## ✨ Features
 
-Interactive Dashboard
+### Interactive Dashboard
 
 - Interactive brand analytics dashboard
 - Interactive charts and visualizations
@@ -20,30 +20,29 @@ Interactive Dashboard
 - Easy exploration of brand-related information
 - Dynamic dashboard interface
 
-Data Processing
+### Data Processing
 
 - Loads brand data from an Excel dataset
 - Processes and analyzes the dataset using Pandas
 - Performs data preparation for visualization
 - Generates meaningful analytical insights from the data
 
-Data Visualization
+### Data Visualization
 
-The dashboard provides interactive visualizations to explore brand-related data and identify important patterns and trends.
+The dashboard uses `Plotly` visualizations integrated with `Dash` to explore brand-related data and identify important patterns and trends.
 
-The visualizations are created using Plotly and integrated into the dashboard using Dash.
+## 🛠️ Technologies Used
 
-🛠️ Technologies Used
+- `Python`
+- `Pandas`
+- `Plotly`
+- `Plotly Dash`
+- `OpenPyXL`
+- `Excel`
 
-- Python
-- Pandas
-- Plotly
-- Plotly Dash
-- OpenPyXL
-- Excel
+## 📂 Project Structure
 
-📂 Project Structure
-
+```text
 Brand_Analysis_Dashboard/
 │
 ├── app.py
@@ -51,79 +50,90 @@ Brand_Analysis_Dashboard/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
-File Description
+## 📄 File Description
 
-"app.py"
+### `app.py`
 
 Main Dash application containing the data processing, analysis, dashboard components, and visualizations.
 
-"brand_analysis_dirty.xlsx"
+### `brand_analysis_dirty.xlsx`
 
 Excel dataset used for brand data analysis and visualization.
 
-"requirements.txt"
+### `requirements.txt`
 
 Contains the required Python dependencies needed to run the project.
 
-"README.md"
+### `README.md`
 
 Project documentation containing information about the dashboard, installation, usage, and technologies.
 
-".gitignore"
+### `.gitignore`
 
-Prevents unnecessary files such as virtual environments, Python cache files, and local configuration files from being pushed to GitHub.
+Prevents unnecessary files such as virtual environments and Python cache files from being pushed to GitHub.
 
-⚙️ Installation
+## ⚙️ Installation
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/MythriSM/Brand_Analysis_Dashboard.git
-
-2. Navigate to the Project Directory
-
 cd Brand_Analysis_Dashboard
+```
 
-3. Create a Virtual Environment
+### 2. Create a Virtual Environment
 
+```bash
 python -m venv venv
+```
 
-4. Activate the Virtual Environment
+### 3. Activate the Virtual Environment
 
-Windows
+#### Windows
 
+```bash
 venv\Scripts\activate
+```
 
-macOS / Linux
+#### macOS / Linux
 
+```bash
 source venv/bin/activate
+```
 
-5. Install Dependencies
+### 4. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-🚀 Run Locally
+## 🚀 Run Locally
 
 After installing the required dependencies, start the Dash application:
 
+```bash
 python app.py
+```
 
 The application will start on your local machine.
 
-Open the local address displayed in the terminal in your browser.
-
 Typically, the Dash application runs at:
 
+```text
 http://127.0.0.1:8050
+```
 
-You can then interact with the dashboard and explore the available brand analytics and visualizations.
+Open the address in your browser to access the dashboard.
 
-«Note: The "127.0.0.1:8050" address is accessible only from the machine running the application.»
+> **Note:** The `127.0.0.1:8050` address is accessible only from the machine running the application.
 
-🔄 How It Works
+## 🔄 How It Works
 
 The application follows this data analytics workflow:
 
+```text
 Brand Excel Dataset
         ↓
    Data Loading
@@ -137,22 +147,22 @@ Data Visualization
 Interactive Dashboard
         ↓
  Brand Insights
+```
 
-📊 Data Processing
+## 📊 Data Processing
 
 The application:
 
 - Loads the brand dataset from Excel.
-- Processes the available data using Pandas.
+- Processes the available data using `Pandas`.
 - Performs data analysis on the dataset.
 - Prepares data for visualization.
-- Generates interactive visualizations.
-- Presents the analyzed information through the dashboard.
+- Generates interactive visualizations using `Plotly`.
+- Presents the analyzed information through `Dash`.
 
-📈 Dashboard Components
+## 📈 Dashboard Components
 
-Interactive Dashboard
-
+```text
 Brand Dataset
       ↓
 Data Processing
@@ -162,43 +172,44 @@ Data Analysis
 Interactive Charts
       ↓
 Brand Insights
+```
 
-Interactive Visualizations
+## 🔍 Key Analytics
 
-The dashboard uses Plotly visualizations to help users explore the brand dataset and understand patterns and trends in the data.
-
-🔍 Key Analytics
-
-Brand Analysis
+### Brand Analysis
 
 Analyze brand-related information and explore patterns within the dataset.
 
-Trend Analysis
+### Trend Analysis
 
 Explore trends and changes in the available brand data through interactive visualizations.
 
-Comparative Analysis
+### Comparative Analysis
 
 Compare different categories or brand-related attributes using interactive charts.
 
-Data Visualization
+### Data Visualization
 
-Use interactive Plotly charts to understand the dataset and identify meaningful insights.
+Use interactive `Plotly` charts to understand the dataset and identify meaningful insights.
 
-📦 Requirements
+## 📦 Requirements
 
 The project requires the following Python packages:
 
+```text
 dash
 pandas
 plotly
 openpyxl
+```
 
 Install all dependencies using:
 
+```bash
 pip install -r requirements.txt
+```
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 - Integration with larger and more diverse datasets
 - Advanced analytical features
@@ -209,10 +220,11 @@ pip install -r requirements.txt
 - Improved dashboard responsiveness
 - Additional filtering and comparison features
 
-🎯 Project Purpose
+## 🎯 Project Purpose
 
 This project was developed to demonstrate practical skills in:
 
+```text
 Data Cleaning
       ↓
 Data Preprocessing
@@ -228,17 +240,17 @@ Interactive Dashboard Development
 Python Programming
       ↓
 Data-Driven Application Development
+```
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Mythri SM
+**Mythri SM**
 
-Computer Science Student
-Sapthagiri NPS University
+`Computer Science Student`  
+`Sapthagiri NPS University`
 
 Interested in software development, data analytics, and building practical applications using modern technologies.
 
+## 📄 License
 
-📄 License
-
-This project is intended for educational and portfolio purposes.
+This project is intended for **educational and portfolio purposes**.
